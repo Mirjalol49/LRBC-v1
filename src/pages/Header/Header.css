@@ -1,0 +1,74 @@
+.header {
+    background-color: #003C6A;
+    padding         : 15px 0;
+}
+
+.header-wrapper {
+
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+
+}
+
+.header-right_wrapper {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+}
+
+.header-logo {
+    width    : 100%;
+    max-width: 110px;
+    height   : auto;
+}
+
+.header-nav {
+
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+
+    color      : white;
+    margin-left: 80px;
+    gap        : 2em;
+}
+
+.header-link {
+    display    : block;
+    font-size  : 1.10rem;
+    color      : #FDFAF0;
+    font-family: "Inter", sans-serif;
+}
+
+/* From Uiverse.io by cssbuttons-io */
+.contact-button {
+    width           : 100%;
+    max-width       : 400px;
+    color           : #232946;
+    background-color: #b8c1ec;
+    padding         : 12px 18px;
+    border-radius   : 10px;
+    font-size       : 1.1rem;
+    font-family     : "Inter", sans-serif;
+    font-weight     : 600;
+}
+
+.popover-btn {
+    background-color: transparent;
+    border          : 1px solid #fff;
+    padding         : 5px;
+    border-radius   : 5px;
+    cursor          : pointer;
+}
+
+
+.popover-btn:hover {
+    background-color: #fff;
+
+}
+
+.header-globe:hover {
+    color: #003C6A;
+}

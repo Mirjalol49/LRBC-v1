@@ -1,0 +1,28 @@
+/* From Uiverse.io by Carlos-vargs */
+.button {
+    display        : flex;
+    justify-content: center;
+    color          : #fff;
+    font-size      : 1.8rem;
+    font-weight    : 600;
+    font-family    : "Inter", sans-serif;
+    width          : 100%;
+    max-width      : 320px;
+    padding        : 8px 12px;
+    letter-spacing : 0.5px;
+    border-radius  : 10px;
+    background     : #FF7F50;
+    transition     : all 0.3s ease-in-out 0s;
+    box-shadow     : rgba(251, 157, 49, 0.698) 0px 0px 0px 0px;
+    animation      : 2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+    align-items    : center;
+    border         : 2px solid #fff;
+
+}
+
+
+@keyframes pulse {
+    100% {
+        box-shadow: 0 0 0 35px rgba(193, 244, 246, 0);
+    }
+}

@@ -1,0 +1,10 @@
+.lucide-globe {
+    color     : #fff;
+    transition: stroke 0.3 ease;
+
+}
+
+
+.lucide-globe:hover {
+    stroke: #003C6A;
+}
