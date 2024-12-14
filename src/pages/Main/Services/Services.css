@@ -6,6 +6,7 @@
     background-color: #003C6A;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .services-title {
@@ -13,4 +14,11 @@
     font-size: 3rem;
     font-family: "Alatsi", sans-serif;
     color: #fff;
+}
+
+.services-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
